@@ -1,0 +1,1 @@
+docker run --detach -e AZP_URL="https://dev.azure.com/anilavvaru/" -e AZP_TOKEN="" -e AZP_POOL="schoolspool" -e AZP_AGENT_NAME="Docker Agent - Linux" --name "azp-agent-linux" azp-agent:linux
